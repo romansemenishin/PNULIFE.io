@@ -1,0 +1,29 @@
+.k1 { 
+    width: 200px; 
+    background: rgb(212, 207, 207);
+    padding: 5px 20px;
+     
+    border: solid 1px black; 
+    float: left;
+   }
+.k2 { 
+    width: 200px;  
+    color: rgb(73, 179, 32);
+    padding: 5px;
+    background: rgb(26, 202, 188); 
+    border: solid 5px rgb(204, 17, 17); 
+    float: left; 
+    position: relative; 
+    left: 60px; 
+   }
+.k3 { 
+    width: 200px;  
+    color: rgb(0, 195, 255);
+    background: rgb(201, 20, 192);
+    padding: 5px; 
+    border: solid 3px rgb(38, 92, 207); 
+    float: left; 
+    position: relative; 
+    left: 120px; 
+   }
+   

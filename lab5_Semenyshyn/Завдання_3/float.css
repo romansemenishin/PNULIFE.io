@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: monospace;
+    font-size: 17px;
+  }
+  
+  .info {
+    padding: 7px 10px;
+  }
+  
+  .info p {
+    margin-bottom: 16px;
+    margin-top: 0;
+  }
+  
+  code {
+    font-weight: 700;
+    color: #444;
+    border-bottom: 2px solid rgb(16, 203, 128);
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .block {
+    width: 25%;
+    height: 150px;
+    background-color: gold;
+    position: relative;
+    font-size: 13px;
+    padding: 4px;
+  }
+  
+  .content {
+    background-color: rgb(6, 65, 213);
+    padding: 4px 8px;
+  }
+  
+  .child {
+    color: #444;
+    background-color: #222;
+    padding: 4px 8px;
+    display: inline-block;
+  }
+  
+  .content p {
+    margin: 0;
+  }
+  
+  .block.two .child {
+    float: right;
+  }
