@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Table(Task3)</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		table td,
+		table th {
+			box-sizing: border-box;
+			padding: 5px;
+		}
+
+		table th img {
+			height: 16px;
+			vertical-align: center;
+		}
+
+		table thead th {
+			border: 6px dotted rgb(9, 228, 90);
+			background-image: url(img/background/images15.jpg);
+		}
+
+		table tbody tr:first-child td:first-child {
+			border: 6px dashed rgb(110, 242, 230);
+			background-image: url(img/background/images17.jpg);
+		}
+
+		table tbody tr:first-child td:nth-child(2) {
+			border: 6px dashed rgb(244, 0, 0);
+			background-image: url(img/background/images13.jpg);
+		}
+
+		table tbody tr:first-child td:nth-child(3) {
+			border: 6px dashed rgb(228, 10, 170);
+			background-image: url(img/background/images18.jpg);
+		}
+
+		table tbody tr:first-child td:last-child {
+			border: 6px dashed rgb(0, 0, 0);
+			background-image: url(img/background/images11.jpg);
+		}
+
+		table tr:first-child td:not(:last-child) {
+			border-right: 6px dashed rgb(21, 87, 4);
+		}
+
+		table tbody tr:last-child td {
+			padding: 0px;
+			border: none;
+		}
+
+		figure {
+			text-align: center;
+			padding: 5px 20px;
+		}
+
+		figure div {
+			aspect-ratio: 3 / 4;
+			width: 230px;
+			margin: 0 auto;
+		}
+
+		figure img {
+			object-fit: cover;
+			object-position: center;
+			width: 100%;
+			height: 100%;
+		}
+
+		table tr:first-child a {
+			text-decoration: none;
+		}
+
+		figure figcaption {
+			text-shadow: 0.5px 0.5px 1px black;
+			color: white
+		}
+
+		iframe {
+			box-sizing: border-box;
+			border: 6px inset lightgray;
+			width: 100%;
+			height: auto;
+		}
+
+		.audio {
+			text-align: center;
+		}
+
+		.video {
+			margin-top: 30px;
+			width: 100%;
+			text-align: center;
+		}
+
+		.video video {
+			width: 80%;
+		}
+	</style>
+</head>
+
+<body>
+	<a style="display: block; text-align: right;" href="file:///D:/IPZ-13%20Nytsak/front_end_Nytsak/index2.html">На головну дисципліни</a>
+	<a style="display: block; text-align: right;" href="file:///D:/IPZ-13%20Nytsak/front_end_Nytsak/lab4_Nytsak/lab4.html">Лабораторна робота 4</a>
+	<br>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="4"><img src="img/0070.gif" alt="Gif"> Мої одногрупники</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<a href="file:///D:/IPZ-13%20Nytsak/front_end_Nytsak/lab4_Nytsak/zavdania3/orihivskij.html" target="frame">
+						<figure>
+							<div><img src="d:\IPZ-13 Nytsak\front_end_Nytsak\lab4_Nytsak\photo\images1.jpg" alt="Орихівський Роман"></div>
+							<figcaption>Орихівський Роман</figcaption>
+						</figure>
+					</a>
+				</td>
+				<td>
+					<a href="file:///D:/IPZ-13%20Nytsak/front_end_Nytsak/lab4_Nytsak/zavdania3/rohiv.html" target="frame">
+						<figure>
+							<div><img src="d:\IPZ-13 Nytsak\front_end_Nytsak\lab4_Nytsak\photo\images2.jpg" alt="Рогів Назар"></div>
+							<figcaption>Рогів Назар</figcaption>
+						</figure>
+					</a>
+				</td>
+				<td>
+					<a href="file:///D:/IPZ-13%20Nytsak/front_end_Nytsak/lab4_Nytsak/zavdania3/rakovetskyi.html" target="frame">
+						<figure>
+							<div><img src="d:\IPZ-13 Nytsak\front_end_Nytsak\lab4_Nytsak\photo\images7.jpg" alt="Раковецький Дмитро"></div>
+							<figcaption>Раковецький Дмитро</figcaption>
+						</figure>
+					</a>
+				</td>
+				<td>
+					<a href="file:///D:/IPZ-13%20Nytsak/front_end_Nytsak/lab4_Nytsak/zavdania3/morys.html" target="frame">
+						<figure>
+							<div><img src="d:\IPZ-13 Nytsak\front_end_Nytsak\lab4_Nytsak\photo\images3.jpg" alt="Морис Денис"></div>
+							<figcaption>Морис Денис</figcaption>
+						</figure>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4"><iframe name="frame" frameborder="0"></iframe></td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="audio">
+		<p>
+			Bedhead
+			<a target="_blank" href="https://sefon.pro/mp3/37990-tom-odell-another-love/">(Download)</a>
+		</p>
+		<audio controls>
+			<source src="d:\IPZ-13 Nytsak\front_end_Nytsak\lab4_Nytsak\audio\Tom Odell - Another Love.mp3" type="audio/mp3">
+		</audio>
+	</div>
+	<div class="video">
+		<p>
+			<a target="_blank" href="d:\IPZ-13 Nytsak\front_end_Nytsak\lab4_Nytsak\video\ФІЗИЧНА ПІДГОТОВКА ДО АРМІЇ ВІД ЛЬОЛІКА _ БІЛИЙ ЙДЕ В АРМІЮ _ КУРС МОЛОДОГО БІЙЦЯ _ ДИВИТИСЬ ВСІМ.mp4"></a>
+			<a target="_blank" href="https://www.y2mate.com/ru/youtube/1zp6h0Rbktc">(Download)</a>
+            <video controls>
+                <source
+                    src="d:\IPZ-13 Nytsak\front_end_Nytsak\lab4_Nytsak\video\ФІЗИЧНА ПІДГОТОВКА ДО АРМІЇ ВІД ЛЬОЛІКА _ БІЛИЙ ЙДЕ В АРМІЮ _ КУРС МОЛОДОГО БІЙЦЯ _ ДИВИТИСЬ ВСІМ.mp4"
+                    type="video/mp4">
+            </video>
+        </p>
+
+	</div>
+</body>
+
+</html>
