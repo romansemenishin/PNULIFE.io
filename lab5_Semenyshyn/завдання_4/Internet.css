@@ -1,0 +1,20 @@
+
+.block1 { 
+    display: flex;
+    justify-content: space-around;
+    width: 600px; 
+    background: #ccc;
+    padding: 10px;
+    padding-left: 15px; 
+    border: double 1px red; 
+    float: left;
+    top: 100px;
+   }
+   .block2 { 
+    top: 100px;
+    width: 400px; 
+    background: #ccc; 
+    padding: 10px;
+    border: double 1px red; 
+    float: left;   
+   }

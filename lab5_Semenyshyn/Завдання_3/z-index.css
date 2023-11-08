@@ -1,0 +1,23 @@
+div {
+    width: 200px;
+    height: 80px;
+    position: relative;
+    padding: 16px;
+    font-family: monospace;
+  }
+  
+  .infront {
+    background-color: rgb(24, 13, 222);
+    top: 70px;
+    left: 120px;
+    z-index: 2;
+    color: #222;
+  }
+  
+  .behind {
+    background-color: rgb(192, 215, 18);
+    top: -80px;
+    left: 35px;
+    z-index: 1;
+    color: #f1f1f1;
+  }
