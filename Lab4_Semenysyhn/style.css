@@ -1,0 +1,180 @@
+table{
+	caption-side: bottom;
+}
+
+table.first{
+	width: 40%;
+	height: 200px;
+	border: 3px solid purple;
+	margin: 0px auto;
+	caption-side: bottom;
+}
+th.first, td.first{
+	border: 1px solid purple;
+}
+th.first:first-child, td.first:first-child{
+	width: 150px;
+}
+td.first{
+	text-align: right;
+	height: 150px;
+	vertical-align: top;
+}
+table.second{
+	border: 1px solid green;
+	caption-side: bottom;
+	border-spacing: 20px;
+	width: 40%;
+}
+td.second {
+	border: 1px solid green;
+	width: 100px;
+	padding: 0;
+}
+table.third{
+	border: 1px solid red;
+	caption-side: bottom;
+	border-spacing: 30px;
+}
+td.third {
+	border: 1px solid red;
+	width: 300px;
+	padding: 0;
+}
+td.blue{
+	border: 1px solid aqua;
+	width: 100px;
+	padding: 0;
+}
+td.green{
+	border: 1px solid green;
+	width: 100px;
+	padding: 0;
+}
+table.fourth{
+	caption-side: bottom;
+	border-spacing: 0px;
+	width: 40%;
+}
+th.fourth {
+	border: 2px solid aquamarine;
+	padding: 10px;
+}
+td.fourth {
+	border: 2px solid aquamarine;
+	padding: 10px;
+	text-align: left;
+}
+td.pink{
+	border: 2px solid aquamarine;
+	padding: 10px;
+	color: pink;
+	text-align: left;
+}
+th.fourth_blue{
+	border: 2px solid aquamarine;
+	padding: 10px;
+	color: blue;
+}
+table.fifth{
+	border-left: 3px solid violet;
+	border-right: 3px solid violet;
+	caption-side: bottom;
+	width: 40%;
+	border-spacing: 0px;
+	padding: 1px;
+}
+tr.fifth td.fifth:first-child{
+	border-left: 1px solid violet;
+}
+tr.fifth td.fifth:last-child{
+	border-right: 1px solid violet;
+}
+td.border {
+	border-top: 3px solid violet;
+	border-bottom: 3px solid violet;
+}
+td.border_green {
+	border-top: 3px solid violet;
+	border-bottom: 3px solid violet;
+	background-color: aquamarine;
+	text-align: center;
+}
+tr.fifth:last-child td.fifth{
+	background-color: greenyellow;
+	text-align: center;
+}
+table.sixth{
+	caption-side: bottom;
+	border: 1px solid black;
+}
+th.sixth{
+	border: 1px solid black;
+}
+td.sixth{
+	border: 1px solid black;
+}
+table.seventh{
+	width: 40%;
+	caption-side: bottom;
+	border-spacing: 0px;
+	border: 1px solid blue;
+}
+td.seventh{
+	border: 1px solid blue;
+}
+td.seventh_blue{
+	border: 1px solid blue;
+	background-color: lightblue;
+}
+td.seventh_peach{
+	border: 1px solid blue;
+	background-color: peachpuff;
+}
+td.seventh_purple{
+	border: 1px solid blue;
+	background-color: lightpink;
+	color: lightpink;
+}
+table.eight{
+	border: 1px solid lightblue;
+}
+td.eight{
+	border: 1px solid lightblue;
+}
+td.eight_one{
+	border: 1px solid plum;
+}
+td.eight_two{
+	border: 1px solid purple;
+}
+table.table{
+	width: 100%;
+	text-align: center;
+	background-image: url("image/images17.jpg");
+	background-repeat: repeat;
+	border: 1px solid black;
+}
+.bio{
+	display: none;
+}
+.bio:target{
+	display: inline-block;
+	border: 1px solid black;
+}
+.name{
+	text-align: center;
+}
+.age{
+	text-align: center;
+}
+.email{
+	text-align: center;
+}
+.audio{
+	text-align: center;
+}
+td p{
+	font-size: 20px;
+	font-weight: 600;
+}
