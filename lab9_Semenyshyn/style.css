@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #ffcc00;
+}
+header span{
+	background-color: white;
+	padding: 20px;
+}
+main{
+	display: flex;
+}
+nav{
+	background-color:  #3366ff;
+	padding: 20px;
+}
+.block{}
+.theme{
+	background-color: #ff5050;
+	padding: 20px;
+	text-align: center;
+}
+.row{
+	display: flex;
+}
+.big_desc{
+	display: flex;
+ 	flex-direction: column;
+  	flex-basis: 100%;
+}
+.text{
+	font-family: 'Open Sans', sans-serif;
+	overflow-y: scroll;
+	max-height: 300px;
+	padding: 20px;
+}
+.end_desc{
+	background-color: #ff5050;
+	padding: 20px;
+}
+
+  
+.desc{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #3366ff;
+	display: flex;
+  	flex-direction: column;
+  	flex-basis: 100%;
+  	padding: 20px;
+}
+footer{
+	background-color: #ffcc00;
+	padding: 20px;
+	width: calc(100% - 50px);;
+}
+blockquote::after {
+	display: block;
+	content: ' (source: ' attr(cite) ') ';
+	color: hotpink;
+}
+@media screen and (max-width: 768px) {
+	main{
+		display: flex;
+		flex-direction: column;
+	}
+	.row{
+		flex-direction: column;
+	}
+}
+
+@media print {
+    body {
+        display: block;
+    }
+
+    nav, .end_desc {
+        display: none;
+    }
+	.row{
+		flex-direction: column;
+	}
+	.text{overflow: visible;}
+}
