@@ -6,7 +6,7 @@ p.ex5{
     background-color:#ff0000;
 }body.body5{
     background-image: url("../image/ball.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: 5cm 5cm
 }
