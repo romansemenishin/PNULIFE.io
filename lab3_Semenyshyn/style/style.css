@@ -4,9 +4,10 @@
 
 p.ex5{
     background-color:#ff0000;
+    background-position: top
 }body.body5{
     background-image: url("../image/ball.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 5cm 5cm
+    background-position: center
 }
