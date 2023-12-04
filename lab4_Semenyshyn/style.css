@@ -152,7 +152,7 @@ table.table{
 	width: 100%;
 	text-align: center;
 	background-image: url("image/images17.jpg");
-	background-repeat: repeat;
+	background-repeat: repeat-x;
 	border: 1px solid black;
 }
 .bio{
